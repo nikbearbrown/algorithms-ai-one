@@ -4,6 +4,16 @@
 
 An algorithm makes three promises: what problem it solves, why its answer is correct, and how much work it needs. This book opens each promise up and shows you how to test what is inside. It is for readers who can write a small program and follow a proof by contradiction or induction. Read the main path without a specific language; the optional labs use Python 3.10 or newer and no external packages or model calls.
 
+## Learning outcomes
+
+After working through this draft, readers should be able to:
+
+- State an algorithm’s contract, justify correctness, and count its work.
+- Choose between graph search, greedy methods, and dynamic programming based on problem assumptions.
+- Explain a hardness claim and benchmark implementation behavior separately from theoretical bounds.
+
+## Chapters
+
 1. [Write the contract and count the work](chapters/01-contract.md)
 2. [Represent reachability and cost](chapters/02-reachability.md)
 3. [Earn the greedy choice](chapters/03-greedy.md)
